@@ -1,5 +1,10 @@
 Capi::Application.routes.draw do
+  get "public/home"
+  get "public/about"
+  get "public/contact"
   devise_for :users
+
+  root to: 'public#home'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
