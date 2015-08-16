@@ -6,6 +6,11 @@ group :authentication do
 	gem 'rolify'
 end
 
+group :assets do
+	gem 'bootstrap-sass', '~> 3.2.0'
+	gem 'autoprefixer-rails'
+end
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
