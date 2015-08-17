@@ -6,10 +6,13 @@ group :authentication do
 	gem 'rolify'
 end
 
-group :assets do
-	gem 'bootstrap-sass', '~> 3.2.0'
-	gem 'autoprefixer-rails'
-end
+gem 'bootstrap-sass', '~> 3.3.5'
+
+gem 'sass-rails', '~> 4.0.0'
+
+# Forms
+
+gem 'simple_form'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
@@ -17,8 +20,6 @@ gem 'rails', '4.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'

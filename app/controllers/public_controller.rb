@@ -1,4 +1,6 @@
 class PublicController < ApplicationController
+
+
   def home
   end
 
@@ -7,4 +9,5 @@ class PublicController < ApplicationController
 
   def contact
   end
+
 end

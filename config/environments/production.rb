@@ -1,6 +1,9 @@
 Capi::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  # Set for devise's sake because of some reason...
+  #config.default_url_options = {host: 'localhost', port: 3000 }
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 
